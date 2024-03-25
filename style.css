@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+
+  font-family: Outfit, sans-serif;
+  background: var(--light-gray);
+}
+
+h1 {
+  font-size: 21px;
+  color: var(--dark-blue);
+}
+
+p {
+  font-size: 15px;
+  color: var(--grayish-blue);
+}
+
+.page {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  flex-direction: column;
+  height: 100vh; /* Ensure the page takes up the full viewport height */
+}
+
+.qr-component {
+  background: var(--white);
+  width: 300px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 12px;
+}
+
+.elem {
+  margin-bottom: 15px;
+}
+
+.attribution {
+  margin-top: 100px;
+  position: absolute;
+  bottom: 20px;
+}
+
+img {
+  border-radius: 12px;
+  width: 270px;
+}
